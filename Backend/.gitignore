@@ -1,0 +1,11 @@
+node_modules/
+.env
+token.json
+credentials.json
+
+# OAuth refresh/access tokens written by the Gmail service. Never commit these.
+data/gmail-tokens.json
+
+# Local run artifacts.
+server.log
+server.err
